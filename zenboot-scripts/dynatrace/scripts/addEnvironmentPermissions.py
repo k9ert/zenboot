@@ -3,7 +3,7 @@
 # CONSUMES: cluster_url, api-key, environment name, user group, permission_list
 #
 # Groups permission json - see api doc (https://modelt-dynatrace.westeurope.cloudapp.azure.com/managed-api-doc/index.jsp#!/User_groups/getGroups)
-# in order to add the environment to the user group we need to update the current permissions
+# in order to add the environment to the user group we need to update the current access_rights in that group
 # the currently available access rights are:
 #
 #       "LOG_VIEWER",
