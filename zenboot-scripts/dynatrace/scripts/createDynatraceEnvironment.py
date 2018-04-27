@@ -16,7 +16,7 @@ import os
 
 cluster_url = os.getenv('DT_CLUSTER') or "https://n01.lxk326.dynatrace-managed.com"
 api_key = os.getenv('DT_API_KEY') or "cWD-mcuOTpmPCT6uuYTkq"
-tenant_name = os.getenv('DT_TENANT_NAME') or "Torsten_consultant_test_auto_1"
+tenant_name = os.getenv('DT_TENANT_NAME') or "Torsten_consultant_test_auto_2"
 
 
 rest_endpoint = "/api/v1.0/control/tenantManagement"
